@@ -45,6 +45,8 @@
     "jwtSecretKey": "NTZlMGU0Njg3MTdmZDBmZGE0YzFhMGU2NTZjOGJhOWM3NjQwNTkyZDljMTNmMmRmMzc4MjhhYjg5NzI4ZjMzYTI0ZWRkNGVhMzM2NGVkOTI4MWFjZWFjNDM0ZTllM2Q3ZDMyYTY4MmY0NjE3MmU5YjJkYzA5MjllNjAwNDM4ZGM=",
     "clientPackageManager": "npm",
     "clientThemeVariant": "",
-    "languages": ["en", "fr"]
+    "languages": ["en", "fr"],
+    "entities": ["CweList"],
+    "lastLiquibaseTimestamp": 1615748529000
   }
 }

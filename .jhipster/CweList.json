@@ -1,0 +1,34 @@
+{
+  "name": "CweList",
+  "fields": [
+    {
+      "fieldName": "cweId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "code",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "tags",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "cwe_list",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210314190209"
+}

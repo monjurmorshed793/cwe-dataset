@@ -1,0 +1,11 @@
+entity CweList{
+    cweId String,
+    description TextBlob,
+    code TextBlob,
+    tags String
+}
+
+filter *
+paginate * with pagination
+
+service all with serviceImpl
